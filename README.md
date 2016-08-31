@@ -33,8 +33,9 @@ And of course to have a purpose a Kodi instance is required:
 - Kodi v13 or later
 
 ## Deployment
+Install using pip:
+
 pip install kodijsonrpc
-pip install -r requirements.txt
 
 ## Requests, Issues, Bugs or Suggestions
 Add any feature requests, issues, bugs or suggestions here: https://github.com/davgeo/kodijsonrpc/issues
