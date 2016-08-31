@@ -1,0 +1,2 @@
+jsonrpcclient==2.0.1
+requests==2.6.0

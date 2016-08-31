@@ -1,0 +1,17 @@
+# Sublime project files
+*.sublime*
+
+# Compiled python files
+*.pyc
+
+# Virtualenv directory
+pyenv/
+
+# Ignore cached directories
+__pycache__
+
+# Local tests directory
+tests/
+
+# Egg info directories
+*.egg-info/
