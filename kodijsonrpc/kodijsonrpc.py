@@ -76,8 +76,7 @@ class KodiJSONClient(object):
     self.url = 'http://{0}:{1}/'.format(host, port)
     self.server = HTTPServer(self.url + 'jsonrpc', headers={'content-type': 'application/json'}, auth=(user, pwd))
     for namespace in KODI_JSON_NAMESPACES:
-      inst = "self.{0} = KodiNamespaceMethodCatcher(self.server, '{0}')".format(namespace)
-      exec(inst)
+      self.__dict__[namespace] = KodiNamespaceMethodCatcher(self.server, namespace)
 
 #################################################
 #

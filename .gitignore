@@ -9,6 +9,8 @@ pyenv/
 
 # Ignore cached directories
 __pycache__
+.mypy_cache
+build/
 
 # Local tests directory
 tests/
