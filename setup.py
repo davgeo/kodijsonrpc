@@ -12,7 +12,7 @@ with open(os.path.join(path, 'requirements.txt')) as f:
   requirements = f.read().splitlines()
 
 setup(name='kodijsonrpc',
-      version='1.0',
+      version='1.1',
       description='Kodi JSON-RPC client',
       long_description=long_description,
       url='http://github.com/davgeo/kodijsonrpc',
